@@ -18,6 +18,7 @@ public class DataGenerator {
         String city;
         String name;
         String phone;
+    }
 
     public static String generateDate(int shift) {
         return LocalDate.now().plusDays(shift).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
