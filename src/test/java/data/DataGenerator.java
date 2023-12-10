@@ -19,22 +19,6 @@ public class DataGenerator {
         String name;
         String phone;
 
-//        public UserInfo(String city, String name, String phone) {
-//        }
-
-        public String getCity() {
-            return city;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public String getPhone() {
-            return phone;
-        }
-    }
-
     public static String generateDate(int shift) {
         return LocalDate.now().plusDays(shift).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
